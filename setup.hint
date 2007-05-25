@@ -1,0 +1,5 @@
+category: Xfce
+requires: cygwin glib2 gtk2-x11 libintl8 libxfce4util libxfcegui4
+sdesc: "Xfce4 application finder"
+ldesc: "Xfce4 Appfinder is an useful software that permits you to find 
+every application in the system supporting Desktop entry format."
