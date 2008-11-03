@@ -4,28 +4,30 @@ Xfce4 Appfinder is an useful software that permits you to find every
 application in the system supporting Desktop entry format.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.12-1
-  glib2-2.12.12-1
-  gtk2-x11-2.10.12-1
-  libintl8-0.15-1
-  libxfce4util-4.4.1-1
-  libxfcegui4-4.4.1-1
+  cygwin-1.5.25-15
+  gdk-pixbuf2-2.12.12-1
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libintl8-0.17-2
+  libthunar1-0.9.91-1
+  libxfce4menu-4.5.91-1
+  libxfce4util-4.5.91-1
+  libxfcegui4-4.5.91-1
+  libxfconf0_0-4.5.91-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.1-1
-  gawk-3.1.5-4
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.4.0-1
+  xfce4-dev-tools-4.5.91-1
 
 Canonical website:
   http://www.xfce.org/
@@ -36,15 +38,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfce4-appfinder-4.4.1-X-src.tar.bz2
+  unpack xfce4-appfinder-4.5.91-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfce4-appfinder-4.4.1-X.cygport all
+  cygport ./xfce4-appfinder-4.5.91-X.cygport all
 
 This will create:
-  /usr/src/xfce4-appfinder-4.4.1-X-src.tar.bz2
-  /usr/src/xfce4-appfinder-4.4.1-X.tar.bz2
+  /usr/src/xfce4-appfinder-4.5.91-X-src.tar.bz2
+  /usr/src/xfce4-appfinder-4.5.91-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,20 +55,21 @@ Files included in the binary package:
   /etc/postinstall/xfce4-appfinder.sh
   /usr/bin/xfce4-appfinder.exe
   /usr/share/applications/xfce4-appfinder.desktop
-  /usr/share/doc/Cygwin/xfce4-appfinder-4.4.1.README
-  /usr/share/doc/xfce4-appfinder-4.4.1/AUTHORS
-  /usr/share/doc/xfce4-appfinder-4.4.1/BUGS
-  /usr/share/doc/xfce4-appfinder-4.4.1/COPYING
-  /usr/share/doc/xfce4-appfinder-4.4.1/ChangeLog
-  /usr/share/doc/xfce4-appfinder-4.4.1/INSTALL
-  /usr/share/doc/xfce4-appfinder-4.4.1/NEWS
-  /usr/share/doc/xfce4-appfinder-4.4.1/README
-  /usr/share/doc/xfce4-appfinder-4.4.1/TODO
+  /usr/share/doc/xfce4-appfinder-4.5.91/AUTHORS
+  /usr/share/doc/xfce4-appfinder-4.5.91/COPYING
+  /usr/share/doc/xfce4-appfinder-4.5.91/ChangeLog
+  /usr/share/doc/xfce4-appfinder-4.5.91/INSTALL
+  /usr/share/doc/xfce4-appfinder-4.5.91/NEWS
+  /usr/share/doc/xfce4-appfinder-4.5.91/README
+  /usr/share/doc/xfce4-appfinder-4.5.91/TODO
   /usr/share/icons/hicolor/48x48/apps/xfce4-appfinder.png
+  /usr/share/locale/am/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/ar/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/be/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/bn_IN/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ca/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/cs/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/da/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/de/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/dz/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/el/LC_MESSAGES/xfce4-appfinder.mo
@@ -84,11 +87,13 @@ Files included in the binary package:
   /usr/share/locale/he/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/hu/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/hy/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/id/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/it/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ja/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ka/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ko/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/lt/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/lv/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/mk/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/mr/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/nl/LC_MESSAGES/xfce4-appfinder.mo
@@ -98,24 +103,22 @@ Files included in the binary package:
   /usr/share/locale/pt_PT/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ro/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/ru/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/si/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/sk/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/sq/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/sv/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/tr/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/uk/LC_MESSAGES/xfce4-appfinder.mo
+  /usr/share/locale/ur/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/xfce4-appfinder.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-appfinder.mo
-  /usr/share/xfce4/doc/C/images/appfinder-handle-popup.png
-  /usr/share/xfce4/doc/C/images/appfinder-item-popup.png
-  /usr/share/xfce4/doc/C/images/default_appfinder.png
-  /usr/share/xfce4/doc/C/xfce4-appfinder.html
-  /usr/share/xfce4/doc/fr/images/appfinder-handle-popup.png
-  /usr/share/xfce4/doc/fr/images/appfinder-item-popup.png
-  /usr/share/xfce4/doc/fr/images/default_appfinder.png
-  /usr/share/xfce4/doc/fr/xfce4-appfinder.html
 
 ------------------
 
 Port Notes:
+
+----- version 4.5.91-1 -----
+Version bump for 4.6-beta2.
 
 ----- version 4.4.1-1 -----
 Initial release of Xfce 4.4 for Cygwin.
