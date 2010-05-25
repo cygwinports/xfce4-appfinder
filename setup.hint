@@ -1,5 +1,5 @@
 category: Xfce
-requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libthunar-vfs1_2 libxfce4menu0.1_0 libxfce4util4 libxfcegui4_4 libxfconf0_2
+requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libthunar-vfs1_2 libxfce4menu0.1_0 libxfce4util4 libxfcegui4_4 libxfconf0_2
 sdesc: "Xfce4 application finder"
 ldesc: "Xfce4 Appfinder is an useful software that permits you to find 
 every application in the system supporting Desktop entry format."
