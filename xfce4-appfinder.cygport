@@ -1,0 +1,9 @@
+inherit xfce4
+
+NAME="xfce4-appfinder"
+VERSION=4.10.1
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Xfce4 application finder"
+DESCRIPTION="Xfce4 Appfinder is an useful software that permits you to find
+every application in the system supporting Desktop entry format."
